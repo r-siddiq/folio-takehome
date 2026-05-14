@@ -10,6 +10,10 @@ if (file_exists($dbPath)) {
 $pdo = db();
 $pdo->exec(file_get_contents(__DIR__ . '/schema.sql'));
 
+// Run migrations to set up tracking tables and apply any pending schema changes
+require __DIR__ . '/lib/migrations_runner.php';
+run_migrations();
+
 $pdo->exec("
     INSERT INTO staff (email, name) VALUES
         ('freddy@folio.example', 'Freddy Folio')
