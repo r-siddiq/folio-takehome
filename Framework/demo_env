@@ -1,0 +1,26 @@
+# Folio Demo Environment Variables
+# All passwords are "password"
+
+# Staff accounts
+DEMO_STAFF_1_EMAIL=freddy@folio.example
+DEMO_STAFF_1_PASSWORD=password
+DEMO_STAFF_1_NAME="Freddy Folio"
+
+DEMO_STAFF_2_EMAIL=alice@folio.example
+DEMO_STAFF_2_PASSWORD=password
+DEMO_STAFF_2_NAME="Alice Admin"
+
+DEMO_STAFF_3_EMAIL=bob@folio.example
+DEMO_STAFF_3_PASSWORD=password
+DEMO_STAFF_3_NAME="Bob Builder"
+
+DEMO_STAFF_4_EMAIL=carol@folio.example
+DEMO_STAFF_4_PASSWORD=password
+DEMO_STAFF_4_NAME="Carol Creator"
+
+DEMO_STAFF_5_EMAIL=dave@folio.example
+DEMO_STAFF_5_PASSWORD=password
+DEMO_STAFF_5_NAME="Dave Designer"
+
+# Test recipient
+DEMO_RECIPIENT_EMAIL=recipient@example.com
